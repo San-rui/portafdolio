@@ -1,0 +1,63 @@
+.main-2{
+    background-color:#E5F2F9;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 150px 150px;
+}
+.boxes{
+    width: 260px;
+    height: 230px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(216, 210, 210);
+    background-color:white;
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.boxes:hover{
+    border: 1px solid #0BCEDE;
+}
+.parragraph-1{
+    margin: 50px 0;
+    width: 45%;
+    font-size: 15px;
+}
+.container-cajas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.text-boxes{
+    font-size:25px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+.html{
+    color: #E54D26;
+    font-size: 500%;
+}
+.css{
+    color: #3C8FC6;
+    font-size: 500%;
+}
+.sass{
+    color:#CC6599;
+    font-size: 500%;
+}
+.java{
+    color:#EFDB4F;
+    font-size: 500%;
+}
+.react{
+    color:#61DAFB;
+    font-size: 500%;
+}
+.git{
+    color:#F34E29;
+    font-size: 500%;
+}
