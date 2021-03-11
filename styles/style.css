@@ -36,3 +36,9 @@ li{
 .shadow{
     box-shadow: -4px 0px 10px 0px rgba(194, 190, 190, 0.5) inset;
 }
+@media screen and (max-width:400px){
+    h2{
+        font-size: 55px;
+        text-align: center;
+    }
+}

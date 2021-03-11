@@ -21,11 +21,6 @@
 .boxes:hover{
     border: 1px solid #0BCEDE;
 }
-.parragraph-1{
-    margin: 50px 0;
-    width: 45%;
-    font-size: 15px;
-}
 .container-cajas{
     display: flex;
     flex-wrap: wrap;
@@ -39,25 +34,48 @@
 }
 .html{
     color: #E54D26;
-    font-size: 500%;
 }
 .css{
     color: #3C8FC6;
-    font-size: 500%;
 }
 .sass{
     color:#CC6599;
-    font-size: 500%;
 }
 .java{
     color:#EFDB4F;
-    font-size: 500%;
 }
 .react{
-    color:#61DAFB;
-    font-size: 500%;
+    color:#61DAFB
 }
 .git{
     color:#F34E29;
+}
+.icon-size{
     font-size: 500%;
+}
+@media screen and (max-width:400px){
+    .main-2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    .parragraph-1{
+        margin: 5px 0;
+        width: 75%;
+    }
+    .boxes{
+        width: 160px;
+        height: 130px;
+        margin: 10px 10px;
+        display: flex;
+    }
+    .text-boxes{
+        font-size:18px;
+        margin-top: 5px;
+    }
+    .icon-size{
+        font-size: 440%;
+    }
 }

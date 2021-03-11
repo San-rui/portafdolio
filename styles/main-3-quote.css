@@ -22,3 +22,17 @@
     font-weight:900;
     color:white;
 }
+@media screen and (max-width:400px){
+    .main-3{
+        padding: 20px 10px;
+    }
+    .quotes{
+        font-size:80px;
+    }
+    .text-parragraph-2{
+        font-size:15px;
+        width: 95%;
+        margin: 25px 0px;
+        text-align: center;
+    }
+}
