@@ -59,4 +59,7 @@
         height: 170px;
         margin: 5px 5px;
     }
+    .container-cajas2{
+        justify-content:center;
+    }
 }

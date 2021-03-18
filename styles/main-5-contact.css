@@ -1,3 +1,21 @@
+textarea{
+    border-radius: 20px;
+    border: transparent;
+    background-color: #F6F7FB;
+}
+button{
+    width: 45%;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: transparent;
+    background-color:#0BCEDE;
+    color:white;
+    font-size: 20PX;
+}
+button:hover{
+    background-color:#599091;
+}
 .main-5{
     background-color:#E5F2F9;
     display: flex;
@@ -13,12 +31,13 @@
     padding:100px 50px;
     display: flex;
     flex-direction: row;
+    justify-content:space-between;
 }
 .text-box-5-contact{
     width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items:flex-start;
 }
 .circle{
@@ -41,7 +60,6 @@
 }
 .button-icon{
     padding: 6px 8px;
-    margin-top: 20px;
     border-radius: 25px;
     flex-direction: row;
     display: flex;
@@ -52,8 +70,51 @@
     box-shadow: 0px 0px 29px -13px rgba(11,206,222,0.98);
     border:0.5px solid rgba(11,206,222);
 }
+.box-5-icons{
+    margin-top: 30px;
+}
 .form{
-    width:60%;
-    padding:20px 30px;
-    background-color:rgb(235, 226, 226);
+    width:50%;
+    padding:0px 20px;
+    font-weight: 500;
+}
+.form-box{
+    display: flex;
+    flex-direction: row;
+}
+.box-line{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    margin-bottom: 10px;
+}
+.format-contact{
+    background-color: #F6F7FB;
+    height: 43px;
+    border-radius: 20px;
+    padding-left: 10px;
+    border:transparent;
+    flex-grow: 1;
+}
+.m-20{
+    margin-left: 20px;
+}
+@media screen and (max-width:400px){
+    .main-5{
+        padding: 20px 10px;
+    }
+    .box-5{
+        width: 100%;
+        background-color:#E5F2F9;
+        border-radius: 10px;
+        border: 0px solid white;
+        padding:10px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-box-5-contact{
+        width: 90%;
+        text-align: center;
+    }
 }

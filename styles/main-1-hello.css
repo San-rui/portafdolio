@@ -1,6 +1,6 @@
 .main-1{
     background-color: #FFFFFF;
-    width: 100vw;
+    max-width: 100vw;
     margin-top: 100px;
     padding: 100px 100px;
     display: flex;

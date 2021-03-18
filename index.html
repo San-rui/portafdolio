@@ -153,6 +153,53 @@
                     </section>
                     <section class="form"> 
                         <h4>Write me</h4>
+                        <form action="basededatos.php" method="GET">
+                            <div class="form-box">
+                                <div class="box-line">
+                                    <label for="idNombre">Name<sup>*</sup></label>
+                                    <input 
+                                        type="text"
+                                        id="idNombre" 
+                                        maxlength="30" 
+                                        size="30"
+                                        placeholder="P. eje.:Ada"
+                                        class="format-contact">
+                                    </input>
+                                </div>
+                                <div class="box-line m-20">
+                                    <label for="idApellido">Surname<sup>*</sup></label>
+                                    <input 
+                                        type="text"
+                                        id="idApellido" 
+                                        maxlength="30" 
+                                        size="30"
+                                        placeholder="P. eje.: Lovelance"
+                                        class="format-contact">
+                                    </input>
+                                </div>
+                            </div>
+                            <div class="box-line">
+                                <label for="idEmail">Email<sup>*</sup></label>
+                                <input 
+                                    type="text"
+                                    id="idEmail" 
+                                    maxlength="30" 
+                                    size="30"
+                                    placeholder="Add your email"
+                                    class="format-contact">
+                                </input>
+                            </div>
+                            <label for="idMessage">Message<sup>*</sup></label>
+                            <textarea  
+                                id="idMessage" 
+                                cols="150"
+                                rows="12"
+                                maxlength="100"
+                                placeholder="write here a message"
+                                class="box-line">
+                            </textarea>
+                            <button type="submit">SEND</button>
+                        </form>
                     </section>
                 </div>
             </section>

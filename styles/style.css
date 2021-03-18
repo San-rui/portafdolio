@@ -28,6 +28,7 @@ li{
     list-style: none;
 }
 .container{
+    width: 100vw;
     font-family: 'Noto Sans SC', sans-serif;
     display: flex;
     justify-content: center;
@@ -41,4 +42,5 @@ li{
         font-size: 55px;
         text-align: center;
     }
+
 }
