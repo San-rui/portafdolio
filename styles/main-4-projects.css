@@ -1,10 +1,11 @@
 .main-4{
+    width: 100%;
     background-color:#FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    padding: 140px 150px;
+    padding: 10% 10%;
     flex-wrap: wrap;
 }
 .parragraph-1{
@@ -19,15 +20,17 @@
     border: 0.5px solid rgb(216, 210, 210);
     background-color:white;
     margin: 15px 15px;
+    padding-bottom: 5%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 }
 .container-cajas2{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content:flex-start;
+    justify-content:center;
     align-items: center;
 }
 .boxes-2:hover{
@@ -58,6 +61,8 @@
         width: 170px;
         height: 170px;
         margin: 5px 5px;
+        padding-bottom: 0%;
+
     }
     .container-cajas2{
         justify-content:center;
