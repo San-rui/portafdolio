@@ -60,14 +60,14 @@
         flex-direction: column;
         justify-content:center;
         align-items: center;
-        padding: 20px 10px;
+        padding: 20px 5px;
     }
     .parragraph-1{
         margin: 5px 0;
         width: 75%;
     }
     .boxes{
-        width: 160px;
+        width: 150px;
         height: 130px;
         margin: 10px 10px;
         display: flex;

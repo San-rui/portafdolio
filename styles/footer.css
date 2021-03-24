@@ -43,6 +43,20 @@
     color:white;
     font: size 15px;
 }
+.mail-footer{
+    display: flex;
+    flex-direction: row;
+
+}
+.san{
+    color:white;
+    font: size 15px;
+    margin-left: 3px;
+}
+.san:hover{
+    color:#E6E6E6;
+
+}
 @media screen and (max-width:400px){
     .footer{
         background-color:#0BCEDE;
@@ -57,5 +71,11 @@
         width: 90px;
         height: 25px;
         font-size: 13px;
+    }
+    .footer-button{
+        display:none;
+    }
+    .end{
+        margin-top: 20px;
     }
 }

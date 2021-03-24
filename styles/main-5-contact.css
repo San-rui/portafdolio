@@ -1,7 +1,18 @@
+input{
+    outline: none;
+}
 textarea{
     border-radius: 20px;
     border: transparent;
     background-color: #F6F7FB;
+    outline: none;
+    display: flex;
+    justify-content:flex-start;
+    padding: 10px;
+}
+textarea:active{
+    box-shadow: 0px 0px 29px -13px rgba(11,206,222,0.98);
+    border:0.5px solid rgba(11,206,222);
 }
 button{
     width: 45%;
@@ -16,6 +27,10 @@ button{
 button:hover{
     background-color:#E6E6E6;
     color:#0BCEDE;
+}
+input:active{
+    box-shadow: 0px 0px 29px -13px rgba(11,206,222,0.98);
+    border:0.5px solid rgba(11,206,222);
 }
 .main-5{
     width: 100%;
@@ -53,20 +68,28 @@ button:hover{
     align-items: center;
 
 }
-.circle:hover{
-    color:white;
-    background-color: #0BCEDE;
-}
 .text-icon-contact{
+    font-size:1em;
     color:rgb(7, 3, 3);
+    margin-left: 10px;
 }
 .button-icon{
+    width: 50%;
+    height: 50px;
     padding: 2% 0%;
+    margin-bottom: 20px;
     border-radius: 25px;
     flex-direction: row;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.button-icon .circle:hover{
+    color:white;
+    background-color: #0BCEDE;
+}
+.button-icon .text-icon-contact:hover{
+    color:#0BCEDE;
 }
 .button-icon:active{
     box-shadow: 0px 0px 29px -13px rgba(11,206,222,0.98);
@@ -106,6 +129,7 @@ button:hover{
 .m-20{
     margin-left: 20px;
 }
+
 @media screen and (max-width:400px){
     .main-5{
         padding: 20px 10px;
@@ -137,5 +161,11 @@ button:hover{
     }
     .m-20{
         margin-left: 0px;
+    }
+    .button-icon{
+        width: 70%;
+    }
+    .text-icon-contact{
+        width: 100%;
     }
 }

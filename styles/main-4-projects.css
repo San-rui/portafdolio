@@ -58,13 +58,22 @@
         font-size: 15px;
     }
     .boxes-2{
-        width: 170px;
-        height: 170px;
+        width: 80%px;
+        height: 190px;
         margin: 5px 5px;
         padding-bottom: 0%;
 
     }
     .container-cajas2{
         justify-content:center;
+    }
+    .img-box-2{ 
+        width:50%;
+    }
+    .text-boxes-2{
+        font-size:18px;
+        font-weight:500;
+        margin: 8px 0px;
+    
     }
 }
