@@ -84,11 +84,11 @@ input:active{
     justify-content: flex-start;
     align-items: center;
 }
-.button-icon .circle:hover{
+.button-icon:hover .circle{
     color:white;
     background-color: #0BCEDE;
 }
-.button-icon .text-icon-contact:hover{
+.button-icon:hover .text-icon-contact{
     color:#0BCEDE;
 }
 .button-icon:active{
