@@ -18,9 +18,11 @@
     justify-content: center;
     align-items: center;
     flex-direction:column;
+    transition-duration: 0.3s;
 }
 .boxes:hover{
     border: 1px solid #0BCEDE;
+    transition-duration: 0.3s;
 }
 .container-cajas{
     display: flex;
@@ -68,7 +70,7 @@
     }
     .boxes{
         width: 150px;
-        height: 130px;
+        height: 150px;
         margin: 10px 10px;
         display: flex;
     }

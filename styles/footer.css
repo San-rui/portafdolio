@@ -15,9 +15,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 0.3s;
 }
 .footer-button:active{
     box-shadow: 5px 0px 31px -9px rgba(229,242,249,1);
+    transition-duration: 0.3s;
 }
 .footer-container ul li{
     display: inline-block;
@@ -33,11 +35,13 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    transition-duration: 0.3s;
 }
 .circle-footer:hover{
     background-color: #0BCEDE;
     color:#E5F2F9;
     border:0.5px solid #E5F2F9;
+    transition-duration: 0.3s;
 }
 .end{
     color:white;
@@ -52,9 +56,11 @@
     color:white;
     font: size 15px;
     margin-left: 3px;
+    transition-duration: 0.3s;
 }
 .san:hover{
     color:#E6E6E6;
+    transition-duration: 0.3s;
 
 }
 @media screen and (max-width:400px){
