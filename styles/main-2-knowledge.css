@@ -70,7 +70,7 @@
     }
     .boxes{
         width: 150px;
-        height: 10px;
+        height: 150px;
         margin: 10px 10px;
         display: flex;
     }
