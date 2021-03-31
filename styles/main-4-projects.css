@@ -13,10 +13,10 @@
     font-size: 15px;
 }
 .container-cajas2{
-    width: 100%;
+    width: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content:flex-start;
     align-items: center;
 }
 .boxes-2{
@@ -67,6 +67,7 @@
 
     }
     .container-cajas2{
+        width: 300px;
         justify-content:center;
         align-items: center;
     }
