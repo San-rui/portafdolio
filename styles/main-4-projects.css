@@ -28,7 +28,7 @@
     padding-bottom: 5%;
     margin: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     transition-duration: 0.3s;
