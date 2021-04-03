@@ -25,10 +25,9 @@
     transition-duration: 0.3s;
 }
 .container-cajas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .text-boxes{
     font-size:25px;
@@ -63,6 +62,10 @@
         justify-content:center;
         align-items: center;
         padding: 20px 5px;
+    }
+    .container-cajas{
+        display: flex;
+        flex-wrap: wrap;
     }
     .parragraph-1{
         margin: 5px 0;
