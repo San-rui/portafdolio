@@ -66,6 +66,7 @@
     .container-cajas{
         display: flex;
         flex-wrap: wrap;
+        justify-content:center;
     }
     .parragraph-1{
         margin: 5px 0;
