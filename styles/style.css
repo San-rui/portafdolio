@@ -4,9 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body{
-    width: 100vw;
-}
+
 h1{
     font-size:35px;
 }
@@ -27,6 +25,10 @@ a{
 }
 li{
     list-style: none;
+}
+
+.body{
+    width: 100vw;
 }
 .container{
     width: 100%;
