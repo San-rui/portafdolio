@@ -38,13 +38,21 @@ li{
 .shadow{
     box-shadow: -4px 0px 10px 0px rgba(194, 190, 190, 0.5) inset;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:413px){
+    h1{
+        font-size: 40px;
+    }
+
     h2{
-        font-size: 55px;
+        font-size: 50px;
         text-align: center;
     }
     .mail-footer > a{
         margin-top: 20px;
+    }
+
+    h3{
+        font-size: 30px;
     }
 
 }
