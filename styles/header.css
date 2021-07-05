@@ -54,7 +54,7 @@
     color:#0BCEDE;
     transition-duration: 0.3s;
 }
-@media screen and (max-width:413px){
+@media screen and (max-width:414px){
     .header{
         display: none;   
     }

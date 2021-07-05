@@ -148,7 +148,7 @@ input:active{
     margin-left: 20px;
 }
 
-@media screen and (max-width:413px){
+@media screen and (max-width:414px){
     .main-5{
         padding: 20px 10px;
         flex-direction: column;
