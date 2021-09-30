@@ -1,5 +1,5 @@
 .footer{
-    background-color:#0BCEDE;
+    background-color:var(--color-one);
     padding: 50px 150px;
     height: 300px;
     display: flex;
@@ -7,11 +7,16 @@
     flex-direction: column;
     align-items: center;
 }
+
+.footer ul{
+    display: flex;
+}
 .footer-button{
-    color:white;
+    color:var(--color-twoo);
     width: 100px;
     height: 45px;
     border-radius: 20px;
+    padding: 10% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +34,8 @@
     height:42px;
     font-size: 25px;
     margin-left: 20px;
-    background-color: rgb(229, 242, 249);
-    color:#0BCEDE;
+    background-color: var(--color-twoo);
+    color:var(--color-one);
     border-radius:50%;
     display: flex;
     justify-content:center;
@@ -38,13 +43,13 @@
     transition-duration: 0.3s;
 }
 .circle-footer:hover{
-    background-color: #0BCEDE;
-    color:#E5F2F9;
-    border:0.5px solid #E5F2F9;
+    background-color: var(--color-one);
+    color:var(--color-four);
+    border:0.5px solid var(--color-four);
     transition-duration: 0.3s;
 }
 .end{
-    color:white;
+    color:var(--color-twoo);
     font: size 15px;
 }
 .mail-footer{
@@ -53,7 +58,7 @@
 
 }
 .san{
-    color:white;
+    color:var(--color-five);
     font: size 15px;
     margin-left: 3px;
     transition-duration: 0.3s;
@@ -65,7 +70,7 @@
 }
 @media screen and (max-width:414px){
     .footer{
-        background-color:#0BCEDE;
+        background-color:var(--color-one);
         padding: 20px 10px;
         height: 150px;
         display: flex;

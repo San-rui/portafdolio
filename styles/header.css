@@ -1,7 +1,7 @@
 .header{
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: var(--color-one);
     padding: 0px 150px;
     display: flex;
     justify-content: flex-end;
@@ -9,7 +9,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0px -10px 25px 0px #eceaea;
+    box-shadow: 0px -10px 25px 0px var(--color-one);
 }
 .header-container ul{
     list-style: none;
@@ -18,7 +18,7 @@
     display: inline-block;
 }
 .header-button{
-    color:rgb(7, 3, 3);
+    color:var(--color-twoo);
     margin-right: 20px;
     padding: 12px 40px;
     border-radius: 30px;
@@ -30,11 +30,11 @@
     border:0.5px solid transparent;
 }
 .header-button:hover{
-    color:#8DBCEB;
+    color:var(--color-twoo-hover);
     transition-duration: 0.3s;
 }
 .header-button:active{
-    box-shadow: 0px 0px 29px -13px rgba(11,206,222,0.98);
+    box-shadow: 0px 0px 29px -13px var(--color-four);
     border:0.5px solid rgba(11,206,222);
     transition-duration: 0.3s;
 }
@@ -45,15 +45,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0BCEDE;
+    background-color: var(--color-one);
     transition-duration: 0.3s;
     
 }
 .contact:hover{
-    background-color: #E6E6E6;
-    color:#0BCEDE;
+    background-color: var(--color-four);
+    color:var(--color-twoo);
     transition-duration: 0.3s;
 }
+
+@media screen and (max-width:1080px){
+    .header{
+        padding: 0px;
+    }
+
+}
+
 @media screen and (max-width:414px){
     .header{
         display: none;   

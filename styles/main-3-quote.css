@@ -1,6 +1,6 @@
 .main-3{
     max-width: 100%;
-    background-color:#0BCEDE;
+    background-color:var(--color-twoo);
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -9,18 +9,19 @@
 }
 .quotes{
     font-size:100px;
-    color:white;
+    color:var(--color-four);
 }
 .text-parragraph-2{
-    color:white;
-    font-size:20px;
+    color:var(--color-four);
+    font-size:30px;
     width: 60%;
     margin: 25px 0px;
+    text-align: center;
 }
 .someone{
     font-size: 30px;
     font-weight:900;
-    color:white;
+    color:var(--color-four);
 }
 @media screen and (max-width:414px){
     .main-3{
