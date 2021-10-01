@@ -14,7 +14,7 @@ input:active{
 textarea{
     border-radius: 20px;
     border: transparent;
-    background-color: #F6F7FB;
+    background-color: var(--color-four);
     outline: none;
     display: flex;
     justify-content:flex-start;
@@ -58,7 +58,7 @@ button:hover{
     width: 100%;
     background-color:var(--color-five);
     border-radius: 10px;
-    border: 0.5px solid rgb(216, 210, 210);
+    border: 0.5px solid var(--color-one);
     padding: 5% 5%;
     display: flex;
     flex-direction: row;
@@ -102,7 +102,7 @@ button:hover{
     transition-duration: 0.3s;
 }
 .button-icon:hover .circle{
-    color:white;
+    color:var(--color-five);
     background-color: var(--color-one);
     transition-duration: 0.3s;
 }
@@ -111,8 +111,8 @@ button:hover{
     transition-duration: 0.3s;
 }
 .button-icon:active{
-    box-shadow: 0px 0px 29px -13px rgba(11,206,222,0.98);
-    border:0.5px solid rgba(11,206,222);
+    box-shadow: 0px 0px 29px -13px var(--color-one);
+    border:0.5px solid var(--color-one);
     transition-duration: 0.3s;
 }
 .box-5-icons{
@@ -138,7 +138,7 @@ button:hover{
 }
 .format-contact{
     width: 100%;
-    background-color: #F6F7FB;
+    background-color:var(--color-four);
     height: 43px;
     border-radius: 20px;
     padding-left: 10px;
